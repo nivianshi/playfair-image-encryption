@@ -270,3 +270,64 @@ playfair-image-encryption/
 
 &#x20;   └── Generated encryption and analysis results
 
+## Visual Results
+
+### Encrypted Image
+
+![Encrypted Image](docs/images/encrypted_image_1200x1200.png)
+
+### Decrypted Image
+
+![Decrypted Image](docs/images/decrypted_image_1200x1200.png)
+
+The decrypted image was verified against the original image and recovered
+with zero differing channel values.
+
+## Histogram Analysis
+
+### Red Channel
+
+![Red Channel Histogram](docs/images/R_histogram.png)
+
+### Green Channel
+
+![Green Channel Histogram](docs/images/G_histogram.png)
+
+### Blue Channel
+
+![Blue Channel Histogram](docs/images/B_histogram.png)
+
+## Correlation Analysis
+
+Representative R-channel correlation plots are included below.
+
+### Horizontal Correlation
+
+**Original**
+
+![Original R Horizontal Correlation](docs/images/original_R_horizontal_correlation.png)
+
+**Encrypted**
+
+![Encrypted R Horizontal Correlation](docs/images/encrypted_R_horizontal_correlation.png)
+
+### Vertical Correlation
+
+**Original**
+
+![Original R Vertical Correlation](docs/images/original_R_vertical_correlation.png)
+
+**Encrypted**
+
+![Encrypted R Vertical Correlation](docs/images/encrypted_R_vertical_correlation.png)
+
+### Diagonal Correlation
+
+**Original**
+
+![Original R Diagonal Correlation](docs/images/original_R_diagonal_correlation.png)
+
+**Encrypted**
+
+![Encrypted R Diagonal Correlation](docs/images/encrypted_R_diagonal_correlation.png)
+
