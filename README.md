@@ -1,5 +1,3 @@
-@"
-
 \# Playfair Image Encryption with Diffusion
 
 
