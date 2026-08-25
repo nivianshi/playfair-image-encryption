@@ -1,0 +1,37 @@
+PLAYFAIR IMAGE ENCRYPTION
+CORRELATION ANALYSIS
+============================================================
+
+R CHANNEL
+----------------------------------------
+Original:
+  Horizontal  : 0.989442
+  Vertical    : 0.989806
+  Diagonal    : 0.979356
+Encrypted:
+  Horizontal  : -0.024792
+  Vertical    : 0.223678
+  Diagonal    : 0.084918
+
+G CHANNEL
+----------------------------------------
+Original:
+  Horizontal  : 0.993207
+  Vertical    : 0.993813
+  Diagonal    : 0.987078
+Encrypted:
+  Horizontal  : -0.093776
+  Vertical    : 0.164122
+  Diagonal    : 0.010373
+
+B CHANNEL
+----------------------------------------
+Original:
+  Horizontal  : 0.993207
+  Vertical    : 0.993813
+  Diagonal    : 0.987078
+Encrypted:
+  Horizontal  : -0.093776
+  Vertical    : 0.164122
+  Diagonal    : 0.010373
+

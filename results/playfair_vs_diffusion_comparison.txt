@@ -1,0 +1,46 @@
+PLAYFAIR IMAGE ENCRYPTION
+PLAYFAIR vs PLAYFAIR + DIFFUSION
+============================================================
+
+ENTROPY COMPARISON
+----------------------------------------
+R: Playfair = 1.545751, Playfair + Diffusion = 6.142030
+G: Playfair = 1.547341, Playfair + Diffusion = 6.158119
+B: Playfair = 1.547341, Playfair + Diffusion = 6.158119
+
+NPCR COMPARISON
+----------------------------------------
+R: Playfair = 0.000139%, Playfair + Diffusion = 100.000000%
+G: Playfair = 0.000000%, Playfair + Diffusion = 100.000000%
+B: Playfair = 0.000000%, Playfair + Diffusion = 100.000000%
+
+UACI COMPARISON
+----------------------------------------
+R: Playfair = 0.000067%, Playfair + Diffusion = 40.053994%
+G: Playfair = 0.000000%, Playfair + Diffusion = 33.919322%
+B: Playfair = 0.000000%, Playfair + Diffusion = 33.919322%
+
+CORRELATION COMPARISON
+----------------------------------------
+
+R CHANNEL
+Horizontal: Playfair = 0.931398, Playfair + Diffusion = -0.024792
+Vertical: Playfair = 0.996466, Playfair + Diffusion = 0.223678
+Diagonal: Playfair = 0.928396, Playfair + Diffusion = 0.084918
+
+G CHANNEL
+Horizontal: Playfair = 0.979755, Playfair + Diffusion = -0.093776
+Vertical: Playfair = 0.996890, Playfair + Diffusion = 0.164122
+Diagonal: Playfair = 0.976745, Playfair + Diffusion = 0.010373
+
+B CHANNEL
+Horizontal: Playfair = 0.979755, Playfair + Diffusion = -0.093776
+Vertical: Playfair = 0.996890, Playfair + Diffusion = 0.164122
+Diagonal: Playfair = 0.976745, Playfair + Diffusion = 0.010373
+
+============================================================
+OBSERVATION
+============================================================
+
+The diffusion layer significantly improves the statistical properties of the encrypted image. Entropy increases, pixel correlation decreases, and NPCR/UACI demonstrate strong sensitivity to a one-pixel modification.
+The complete Playfair + diffusion system remains fully reversible, with the original image recovered exactly during decryption.

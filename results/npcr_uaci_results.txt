@@ -1,0 +1,15 @@
+PLAYFAIR IMAGE ENCRYPTION
+NPCR AND UACI ANALYSIS
+============================================================
+
+One pixel of the original image was modified before encryption.
+
+NPCR RESULTS:
+R Channel: 100.000000%
+G Channel: 100.000000%
+B Channel: 100.000000%
+
+UACI RESULTS:
+R Channel: 40.053994%
+G Channel: 33.919322%
+B Channel: 33.919322%
